@@ -71,10 +71,3 @@ If the server is still running, you can access it through
 
 http://91.206.15.25:1497/
 
-
-To-do:
-описать в readme:
-- Как запустить тесты
-CI:
-
-- Тесты (юнит и интеграционные)
