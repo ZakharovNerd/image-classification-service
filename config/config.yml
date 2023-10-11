@@ -1,0 +1,23 @@
+services:
+  image_classifier:
+    model_path: 'weights/vgg16_feature_extractor.pth'
+    device: ${oc.env:CLASSIFIER_DEVICE,'cpu'}
+    threshold: 0.2
+    classes:
+      - agriculture
+      - artisinal_mine
+      - bare_ground
+      - blooming
+      - blow_down
+      - clear
+      - cloudy
+      - conventional_mine
+      - cultivation
+      - habitation
+      - haze
+      - partly_cloudy
+      - primary
+      - road
+      - selective_logging
+      - slash_burn
+      - water
