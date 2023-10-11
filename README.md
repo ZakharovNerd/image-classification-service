@@ -1,6 +1,6 @@
 ## About the project
 
-This project project consists of Machine Learning service for multilabel image classification task, created with **FastAPI** and dependency-injector for greater readability and testing. The model training is done in [another repository](https://github.com/ZakharovNerd/image-classification-modeling). The project is managed by **Docker**, the model weights are downloaded by **dvc**, the server part in maintained by **Ansible**
+This project project consists of Machine Learning service for multilabel image classification task, created with **FastAPI** and dependency-injector for greater readability and testing. The model training is done in [another repository](https://github.com/ZakharovNerd/image-classification-modeling). The project is managed by **Docker**, the model weights are downloaded by **DVC**, the server part in maintained by **Ansible**
 
 ### Goal
 
